@@ -92,6 +92,11 @@ p {
     font-size: 2.4em;
 }
 
+.blog p {
+    border-bottom: dashed 6px white;
+    padding-bottom: 30px;
+}
+
 h1 {
     font-weight: 900;
     font-size: 5em;
