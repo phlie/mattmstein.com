@@ -1,0 +1,120 @@
+body {
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.profile-pic {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 402px;
+    height: 500px;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    border: solid 2px white;
+    filter: opacity(90%);
+}
+
+.profile-pic img:hover {
+    animation: pop 0.2s linear;
+    filter: opacity(100%);
+}
+
+.link-bar {
+    margin-top: 210px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-right: solid 2px white;
+    border-top-right-radius: 26px;
+    border-top: solid 2px white;
+    border-left: solid 2px #ff51d9;
+    filter: brightness(90%);
+}
+
+.link-bar:hover {
+    border-left: solid 2px black;
+    filter: brightness(100%);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@keyframes lander-border {
+    0%   {border-left: solid 2px #ff9051;
+          border-bottom: solid 2px #51ff74;}
+    100% {border-left: solid 2px white;
+          border-bottom: solid 2px black;}
+}
+
+@keyframes pop {
+    0%   {transform: scale(1.0, 1.0);}
+    50%  {transform: scale(1.01, 1.01);}
+    100%  {transform: scale(1.0, 1.0);}
+}
+
+.lander {
+    border-top: solid 2px white;
+    border-right: solid 2px white;
+    border-left: solid 2px #ff9051;
+    border-bottom: solid 2px #51ff74;
+    background-color: rgba(0, 0, 0, 0.6);
+    filter: brightness(90%);
+    color: white;
+    animation: lander-border 8s infinite alternate;
+}
+
+.lander:hover {
+    /* animation: blur-lander 1s linear; */
+    filter: brightness(100%);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.quote {
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 60px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid 4px black;
+    color: black;
+    transform: rotate(-10deg)
+}
+
+.quote:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.quote p {
+    font-size: 3em;
+}
+
+p {
+    font-size: 2.4em;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 5em;
+    text-decoration: underline;
+}
+
+h3 {
+    color: white;
+    font-weight: 600;
+    margin: 10px 5x;
+    font-size: 3em;
+    padding: 8px 0 8px 5px;
+    border-left: solid 4px transparent;
+    border-bottom: solid 4px transparent;
+    border-radius: 8px;
+}
+
+h3:hover {
+    border-left: solid 4px white;
+    border-bottom: solid 4px white;
+}
+
+a, a:visited, a:hover {
+    color: white;
+    text-decoration: none;
+}
