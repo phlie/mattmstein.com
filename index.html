@@ -1,54 +1,158 @@
-<!html>
+<!DOCTYPE html>
+<!-- Website is for www.mattmstein.com only, all rights reserved. -->
 <html>
     <head>
-        <title>Matt M Stein's Page</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded:400,600,900|Shadows+Into+Light" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Oswald&display=swap" rel="stylesheet">
+        <title>Welcome to my home.</title>
     </head>
     <style>
-        html, body {
-        padding: 0;
-        margin: 0;
-        }
+     body {
+         background-image: url("img/background.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-color: black;
+         background-position: center;
+         background-attachment: fixed;
+         padding: 0 44px;
+         height: 100%;
+         font-family: 'Oswald', sans-serif;
+     }
+         .color-one {
+         background-color: rgba(255,255,255, 0.6);
+         color: black;
+     }
+     .color-two {
+         background-color: rgba(0, 0, 0, 0.6);
+         color: white;
+     }
+     .color-three {
+         background-color: #db230b;
+         color: white;
+         border: solid 4px black;
+     }
+     .color-four {
+         background-color: #dfeb0c;
+         color: white;
+         border: solid 4px black;
+     }
+     p {
+         font-family: 'Oswald', sans-serif;
+         font-size: 28px;
+     }
+     .main-name  {
+         font-family: 'Kanit', sans-serif;
+         font-size: 36px;
+     }
+     .main-link {
+         font-family: 'Kanit', sans-serif;
+         color: white;
+         font-size: 23px;
+         background-color: black;
+         padding: 25px;
+         border-radius: 5px;
+         text-align: center;
+     }
 
-        body {
-        background-image: url("img/background-1.jpg");
-        background-size: contain;
-        background-attachment: fixed;
-        background-position: center;
-        }
-        </style>
-        <body>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-1">
+     h3 {
+         font-family: 'Kanit', sans-serif;
+         font-size: 60px;
+     }
+     .content h1 {
+         font-family: 'Kanit', sans-serif;
+         font-size: 48px;
+         color: white;
+         text-align: center;
+     }
+     .my-links {
+         color: black;
+         font-family: 'Kanit', sans-serif;
+         font-size: 48px;
+         padding: 0 50px;
+     }
+     .life-advice {
+         color: #dfeb0c;
+         font-family: 'Kanit', sans-serif;
+         font-size: 46px;
+     }
+    </style>
+    <body>
+        <div class="container is-fluid" >
+            <div class="columns">
+                <div class="column is-one-fifth" >
+                    <div class="card color-one">
+
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <a href="img/profile-big.png"><img src="img/profile.png"></a>
+                        </figure>
                     </div>
-                    <div class="col-lg-3 profile-pic">
-                        <img class="center-block" src="img/matt.jpg">
-                    </div>
-                    <div class="col-lg-5">
-                    </div>
-                    <div class="col-lg-2 link-bar">
-                        <h3><a href="http://www.mattmstein.blog">Blog</a></h3>
-                        <h3><a href="https://twitter.com/Matt_M_Stein">Tweet</a></h3>
-                        <h3><a href="https://github.com/phlie">Code</a></h3>
-                        <h3><a href="http://www.phlie.me">Fun</a></h3>
+                    <div class="card-content">
+                        <p class="main-name">Matt Stein</p>
+                        <p class="main-link">www.mattmstein.com</p>
+
+                        <div class="content">
+                            <h1>It is a place of strangness and love.</h1>
+
+                            <span class="life-advice">#Love Life</a>
+                            <br>
+                            <span class="life-advice">#Live the Dream</a>
+                            <br>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-2">
+                </div>
+                <div class="column is-one-fifth" >
+                </div>
+                <div class="colmun">
+                    <div class="tile" >
+                        <div class="tile is-vertical is-parent">
+                            <article class="tile is-child notification color-one">
+                                <p>Despite being on the internet for a while, I haven't kept my things in order. In that sense I plan to redo my online precense starting with this website in the hope of improving mine and other's lives</p>
+                            </article>
+                            <article class="tile is-child notification color-three">
+                                <p>To adventure beyond the bounds of the known is human, and over the past several years I have stayed realitively busy, so I thought I would share what I have been up to with you, readers of this site.</p>
+                            </article>
+                            <article class="tile is-child notification color-one" >
+                                <p>As long as small progress is made on a daily basis, the unskilled becomes the skilled, and the idea becomes an invention.</p>
+                            </article>
+                        </div>
                     </div>
-                    <div class="col-lg-2 quote">
-                        <p> The future unfolds, as the young strive for their goals.</p>
-                    </div>
-                    <div class="col-lg-1">
-                    </div>
-                    <div class="col-lg-6 lander">
-                        <h1>Matt M Stein</h1>
-<p>If you love work, you love life. That means learning becomes a hobby, a passion if you will, a outlet for all your inadequacies, a composition of your abilities.</p>
+                </div>
+                <div class="column is-one-quarter" >
+                    <div class="tile is-parent is-vertical">
+                        <div class="tile is-child notification color-two">
+                            <h3>You have to have passion</h3>
+                        </div>
+                        <div class="tile is-child notification color-one">
+                            <h3>The fabric of the future is knitted in the present.</h3>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="columns" >
+                <div class="column" >
+                </div>
+                <div class="column" >
+                </div>
+                <div class="column notification color-four" >
+                    <div class="tile is-parent is-vertical" >
+                        <div class="tile is-child">
+                            <h3>My...</h3>
+                        </div>
+                        <div class="tile is-child">
+                            <div class="tile is-parent" >
+                                <span class="tile is-child my-links">Company</a></span>
+                                <span class="tile is-child my-links">Blog</a></span>
+                                <span class="tile is-child my-links">LinkedIn</a></span>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
