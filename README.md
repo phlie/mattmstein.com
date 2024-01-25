@@ -1,7 +1,7 @@
 # mattmstein.com
 ## Description
 
-My homepage, for engineering related stuff.
+My homepage, for personal related stuff.
 
 ## Usage
 
@@ -9,4 +9,4 @@ My homepage, for engineering related stuff.
 
 ## License
 
-Copyright © 2017, **Meta Inc.**
+Copyright © 2024, **Matt M Stein**
